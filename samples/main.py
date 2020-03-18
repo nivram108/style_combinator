@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = os.getcwd()
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 
-styles = ["ff", "food_cube", "sun_set", "the_scream", "candy", "oil", "wave", "wind_valley", "none"]
+styles = run.get_style_options()
 deteceted_objects = ["background"]
 uploaded = 0
 transfered = 0
