@@ -36,8 +36,7 @@ Execute /sample/main.py, and open web browser with address http://localhost:5550
 
 
 ## Demo
-{%youtube aB0nw8xTAxs %}
-
+[![Demo](https://img.youtube.com/vi/aB0nw8xTAxs/0.jpg)](https://www.youtube.com/watch?v=aB0nw8xTAxs)
 ## Reference Repo
  - https://github.com/conan7882/fast-style-transfer
  - https://github.com/matterport/Mask_RCNN
