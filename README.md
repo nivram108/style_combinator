@@ -22,7 +22,12 @@ In this project, we combine style transfer and object detection with segmentatio
     ```
 
 ## Run
-Execute /sample/main.py, and open web browser with address http://localhost:5550/
+### Train your own style-transfer model
+Put the style image in ```data/```, then go to ```sample/``` 
+and run ```python3 fast.py --train --styleim FILE_NAME_OF_STYPE_IMAGE```
+### Web application
+Go to ```sample/``` and run ```python3 main.py```
+then open web browser with address http://localhost:5550/
 
 ## Examples
 ![](https://i.imgur.com/nVJHGR1.png)
